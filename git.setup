@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ #As per the github.com snippet.
+
+build=doncarr
+
+echo "# ${build}.dfwskyview.com" > README.md
+git init
+echo project.mobirise > .gitignore
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:linuxtrader/$build.dfwskyview.com.git
+git push -u origin master
+

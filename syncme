@@ -1,0 +1,16 @@
+#!/bin/bash
+
+excludes=" --exclude '.git/*' --exclude 'project.mobirise' --exclude '*/.DS_Store' --exclude './.DS_Store' "
+
+base=doncarr
+subdomain=${base}.dfwskyview.com
+html=~/Documents/aws/subdomains/$base
+
+
+cd $html
+
+# Cant use --delete here since there are multiple source locations
+echo Syncing Standard content to $subdomain
+eval aws s3 sync ${html} s3://${subdomain} ${excludes}
+
+echo Maybe run ./invalidate after review on netlify.
