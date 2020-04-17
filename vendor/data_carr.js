@@ -48,6 +48,7 @@ var APP_DATA = {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
     "fullscreenButton": true,
+    "scenelistButton": false,
     "viewControlButtons": true
   }
 };
