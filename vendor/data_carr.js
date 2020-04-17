@@ -28,7 +28,7 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": -0.944344865200117,
+        "yaw": 0.944344865200117,
         "pitch": 0.5504129438654513,
         "fov": 1.568238662786406
       },
