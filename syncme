@@ -1,6 +1,6 @@
 #!/bin/bash
 
-excludes=" --exclude '.git/*' --exclude 'project.mobirise' --exclude '*/.DS_Store' --exclude './.DS_Store' --exclude git.setup  --exclude syncme --exclude '.git*' "
+excludes=" --exclude '.git/*' --exclude 'project.mobirise' --exclude '*/.DS_Store' --exclude './.DS_Store' --exclude git.setup  --exclude syncme --exclude invalidate --exclude '.git*' "
 
 base=doncarr
 subdomain=${base}.dfwskyview.com
